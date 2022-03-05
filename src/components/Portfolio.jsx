@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Cssportfoliocards from "../ui/CssPortfolioCards";
-import Javaportfoliocards from "../ui/JavaPortfolioCards";
-import Jsportfoliocards from "../ui/JsPortfolioCards";
-import Reactportfoliocards from "../ui/ReactPortfolioCards";
+import Backendportfoliocards from "../ui/BackEndPortfolioCards";
+import Frontendportfoliocards from "../ui/FrontEndPortfolioCards";
+import Fullstackportfoliocards from "../ui/FullStackPortfolioCards";
+import Dataanalyticsportfoliocards from "../ui/DataAnalyticsPortfolioCards";
 
 const Portfolio = () => {
-  const [language, setlanguage] = useState("react");
+  const [language, setlanguage] = useState("frontend");
   var itemnumber = 0
   
 
@@ -74,20 +74,20 @@ const Portfolio = () => {
 
   function renderSwitch(language){
     switch(language){
-      case("react"):
-      return <Reactportfoliocards  />
+      case("dataanalytics"):
+      return <Dataanalyticsportfoliocards  />
       break;
       
-      case("js"):
-      return <Jsportfoliocards />
+      case("fullstack"):
+      return <Fullstackportfoliocards />
       break;
 
-      case("html&css"):
-      return <Cssportfoliocards />
+      case("frontend"):
+      return <Frontendportfoliocards />
       break;
 
-      case("java"):
-      return <Javaportfoliocards />
+      case("backend"):
+      return <Backendportfoliocards />
       break;
       
       default:
@@ -105,12 +105,13 @@ const Portfolio = () => {
             <p>Here is a compilation of all my projects for each language, feel free to explore by switching between languages</p>
           </div>
           <div className="portfolio__nav">
-            <button className="portfolio__nav--button clickable" id="html&css" onClick={() => getporftoliocard("html&css")}>
-              HTML&CSS
+            <button className="portfolio__nav--button clickable" id="frontend" onClick={() => getporftoliocard("frontend")}>
+              Front End
             </button>
-            <button className="portfolio__nav--button clickable" id="js"  onClick={() => getporftoliocard("js")}>JS only</button>
-            <button className="portfolio__nav--button clickable" id="react" onClick={() => getporftoliocard("react")}>React</button>
-            <button className="portfolio__nav--button clickable" id="java" onClick={() => getporftoliocard("java")}>Java</button>
+            <button className="portfolio__nav--button clickable" id="backend"  onClick={() => getporftoliocard("backend")}>Back End</button>
+            <button className="portfolio__nav--button clickable" id="fullstack" onClick={() => getporftoliocard("fullstack")}>Full Stack</button>
+            <button className="portfolio__nav--button clickable" id="dataanalytics" onClick={() => getporftoliocard("dataanalytics")}>Data Analytics</button>
+            
           
           </div>
 

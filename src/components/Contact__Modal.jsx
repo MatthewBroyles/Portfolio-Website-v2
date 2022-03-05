@@ -4,6 +4,7 @@ import vue from "../assets/vue.svg";
 import java from "../assets/java.png";
 import postgres from "../assets/Postgresql.svg";
 import springboot from "../assets/springboot.svg";
+import tableau from "../assets/tableau-software.svg";
 import emailjs, { init } from '@emailjs/browser';
 init("Ty2mxCt-kB7Td2HS_");
 
@@ -94,6 +95,7 @@ const ContactModal = (props) => {
             <img src={vue} className="clickable"></img>
             <img src={java} className="clickable"></img>
             <img src={postgres} className="clickable"></img>
+            <img src={tableau} className="clickable"></img>
 
           </div>
         </div>

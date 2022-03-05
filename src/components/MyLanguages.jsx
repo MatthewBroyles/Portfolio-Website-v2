@@ -6,11 +6,14 @@ import python from "../assets/python.png";
 import springboot from "../assets/springboot.svg";
 import vue from "../assets/vue.svg";
 import json from "../assets/json.svg";
+import tableau from "../assets/tableau-software.svg";
 
 const Mylanguages = () => {
   return (
     <section id="skills">
       <h1 className="skills__title">Skills</h1>
+    <div className="skills">
+    <div className="skills_known">
       <h2 className="skills__title--sub">What I Use</h2>
       <div className="skills__using">
         <div className="skills__using--card">
@@ -70,7 +73,8 @@ const Mylanguages = () => {
         </div>
 
       </div>
-
+    </div>
+    <div className="skills_unknown">
       <h2 className="skills__title--sub">What Im Learning</h2>
       <div className="skills__using">
       <div className="skills__using--card">
@@ -97,6 +101,12 @@ const Mylanguages = () => {
         <div className="skills__using--card">
           <h3 className="skills__using--title">JSON</h3>
           <img src={json} style={{ height: "120px", width: "120px" }}></img>
+        </div>
+        <div className="skills__using--card">
+          <h3 className="skills__using--title">Tableau</h3>
+          <img src={tableau} style={{ height: "120px", width: "120px" }}></img>
+        </div>
+      </div>
         </div>
       </div>
     </section>

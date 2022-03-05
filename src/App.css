@@ -106,7 +106,7 @@ nav {
 nav > img {
   height: 80px;
   transform: scale(2.5);
-  margin-left: 80px;
+  margin-left: 120px;
   margin-top: 20px;
 }
 
@@ -131,7 +131,7 @@ nav > img {
 
 #landing {
   position: relative;
-  background: linear-gradient(260deg, var(--purple), 50%, rgb(245, 245, 245) 50%);
+  background: linear-gradient(255deg, var(--purple), 50%, rgb(245, 245, 245) 50%);
   height: 100vh;
   max-height: 1200px;
   min-height: 620px;
@@ -164,8 +164,9 @@ nav > img {
 }
 
 .landing__text--name {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 64px;
+  margin-left: -.3vw;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -249,15 +250,35 @@ Skills
   height: fit-content;
 }
 
+.skills_known,
+.skills_unknown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.skills {
+  display: flex;
+  grid-gap: 5vw;
+}
+
+@media(max-width: 1404px){
+  .skills{
+    flex-direction: column;
+    grid-gap: 0;
+  }
+}
+
 .skills__title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 50px;
   font-family: "Montserrat", sans-serif;
   font-size: 44px;
 }
 
 .skills__title--sub {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   color: var(--purple);
   border: 6px solid;
   padding: 10px;
@@ -268,7 +289,7 @@ Skills
   text-align: center;
   display: flex;
   flex-direction: column-reverse;
-  height: 190px;
+  height: 110px;
   align-items: center;
 }
 
@@ -280,7 +301,7 @@ Skills
 
 
 .skills__using--title {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 20px;
 }
 
@@ -288,37 +309,13 @@ Skills
   display: grid;
   grid-template-columns: repeat(4, 120px);
   grid-gap: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
-#journey {
-  text-align: center;
-}
 
-.journey__title {
-  font-size: 44px;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 20px;
-}
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
+
 
 /* Container around content */
 .container {
@@ -966,6 +963,7 @@ MAIL MODAL
   height: 60px;
   width: 60px;
   transition: all 500ms;
+  margin-bottom: 10px;
 }
 
 form {
@@ -1168,6 +1166,9 @@ height: 100px;
 
 
 }
+
+
+
 
 @media(max-width: 768px){
 

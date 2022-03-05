@@ -3,7 +3,7 @@ import Portfoliocard from './PortfolioCard';
 import stats from '../assets/portfolio.PNG';
 
 
-const Javaportfoliocards = () => {
+const Backendportfoliocards = () => {
     return (
         <div>
         
@@ -12,4 +12,4 @@ const Javaportfoliocards = () => {
     );
 }
 
-export default Javaportfoliocards;
+export default Backendportfoliocards;

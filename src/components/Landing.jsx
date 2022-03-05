@@ -28,7 +28,7 @@ const Landing = (props) => {
 
       <img className="homesvg" src={homesvg}></img>
       <div className="landing__text">
-        <h3 className="landing__text--hi">Hi Im </h3>
+        <h3 className="landing__text--hi">Hi I'm </h3>
         <h1 className="landing__text--name typing">Matthew Broyles</h1>
 
         <div className="landing__text--title">
@@ -36,7 +36,7 @@ const Landing = (props) => {
         </div>
 
         <p>
-          Im a Computer Science Student Who Aspires To Specialize In Full Stack Development
+          I'm a Computer Science Student Who Aspires To Specialize In Full Stack Development
         </p>
 
         <div className="socials">

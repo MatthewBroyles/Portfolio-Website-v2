@@ -57,7 +57,7 @@ const ContactModal = (props) => {
           <h5>Full Stack Developer</h5>
 
           <p>
-            Pursuing a career in <span className="purple">Full Stack Development</span> but am also open to other fields (Data security, Machine Learning AI). Currently enrolled in a Full Stack bootcamp at <span className="purple">Tech Elevator</span>. Hope to expand my skills everday on my own until I can find company to learn under.
+            Pursuing a career in <span className="purple">Full Stack Development</span> and <span className="purple">Data Analytics</span>. Currently enrolled in a Full Stack bootcamp at <span className="purple">Tech Elevator</span>. Hope to expand my skills everday on my own until I can find a company to learn under.
             
             <span className="purple" ></span>
           </p>

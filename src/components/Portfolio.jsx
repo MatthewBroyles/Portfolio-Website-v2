@@ -102,7 +102,7 @@ const Portfolio = () => {
         <div className="carousel__item--wrapper">
           <div>
             <h1 className="carousel__title">My Projects</h1>
-            <p>Here is a compilation of all my projects for each language, feel free to explore by switching between languages</p>
+            <p>Here is a compilation of all my projects for each field, feel free to explore by switching between fields</p>
           </div>
           <div className="portfolio__nav">
             <button className="portfolio__nav--button clickable" id="frontend" onClick={() => getporftoliocard("frontend")}>

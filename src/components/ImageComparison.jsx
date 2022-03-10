@@ -96,7 +96,7 @@ const Imagecomparison = () => {
         
             <div className="img-comp-container">
             <h1>My Progress</h1>
-            <p>Started in January learning basic html it feels amazing to finally make a good looking eportfolio with react</p>
+            <p>Started in January learning basic html, it feels amazing to finally make a good looking eportfolio with react</p>
             <div className="img-comp-img">
             <img src={comparisonnew}></img>
              </div>
@@ -106,7 +106,7 @@ const Imagecomparison = () => {
             </div>
 
               <div className='imagecomparison__contact'>
-                <p>Thanks for checking out my porfolio!</p>
+                <p>Thank you for checking out my porfolio!</p>
                 <p>click the mail icon on the side to send me a message!</p>
               </div>
             
